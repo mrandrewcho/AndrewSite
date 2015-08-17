@@ -208,7 +208,7 @@ ul#nav li.current a { color: #F06000; }
 #about .profile-pic {
    position: relative;
    width: 180px;
-   height: 160px;
+   height: 180px;
    border-radius: 100%;
 }
 #about .contact-details { width: 41.66667%; }
@@ -325,85 +325,99 @@ ul#nav li.current a { color: #F06000; }
    border-radius: 3px 0 0 3px;
 }
 
-.photoshop {
-  	width: 60%;
-  	-moz-animation: photoshop 2s ease;
-  	-webkit-animation: photoshop 2s ease;
+.R {
+  	width: 30%;
+  	-moz-animation: R 2s ease;
+  	-webkit-animation: R 2s ease;
 }
-.illustrator {
-  	width: 55%;
-  	-moz-animation: illustrator 2s ease;
-  	-webkit-animation: illustrator 2s ease;
-}
-.wordpress {
-  	width: 50%;
-  	-moz-animation: wordpress 2s ease;
-  	-webkit-animation: wordpress 2s ease;
-}
-.css {
-  	width: 90%;
-  	-moz-animation: css 2s ease;
-  	-webkit-animation: css 2s ease;
-}
-.html5 {
+.SPSS {
   	width: 80%;
-  	-moz-animation: html5 2s ease;
-  	-webkit-animation: html5 2s ease;
+  	-moz-animation: SPSS 2s ease;
+  	-webkit-animation: SPSS 2s ease;
 }
-.jquery {
+.SQL {
+  	width: 40%;
+  	-moz-animation: SQL 2s ease;
+  	-webkit-animation: SQL 2s ease;
+}
+.Javascript {
+  	width: 30%;
+  	-moz-animation: Javascript 2s ease;
+  	-webkit-animation: Javascript 2s ease;
+}
+.Python {
+  	width: 20%;
+  	-moz-animation: Python 2s ease;
+  	-webkit-animation: Python 2s ease;
+}
+.Cplusplus {
   	width: 50%;
-  	-moz-animation: jquery 2s ease;
-  	-webkit-animation: jquery 2s ease;
+  	-moz-animation: Cplusplus 2s ease;
+  	-webkit-animation: Cplusplus 2s ease;
 }
 
-@-moz-keyframes photoshop {
-  0%   { width: 0px;  }
-  100% { width: 60%;  }
+.HTML {
+  	width: 70%;
+  	-moz-animation: HTML 2s ease;
+  	-webkit-animation: HTML 2s ease;
 }
-@-moz-keyframes illustrator {
+
+@-moz-keyframes R {
   0%   { width: 0px;  }
-  100% { width: 55%;  }
+  100% { width: 30%;  }
 }
-@-moz-keyframes wordpress {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-moz-keyframes css {
-  0%   { width: 0px;  }
-  100% { width: 90%;  }
-}
-@-moz-keyframes html5 {
+@-moz-keyframes SPSS {
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
-@-moz-keyframes jquery {
+@-moz-keyframes SQL {
+  0%   { width: 0px;  }
+  100% { width: 40%;  }
+}
+@-moz-keyframes Javascript {
+  0%   { width: 0px;  }
+  100% { width: 30%;  }
+}
+@-moz-keyframes Python {
+  0%   { width: 0px;  }
+  100% { width: 20%;  }
+}
+@-moz-keyframes Cplusplus {
   0%   { width: 0px;  }
   100% { width: 50%;  }
+}
+@-moz-keyframes HTML {
+  0%   { width: 0px;  }
+  100% { width: 70%;  }
 }
 
-@-webkit-keyframes photoshop {
+@-webkit-keyframes R {
   0%   { width: 0px;  }
-  100% { width: 60%;  }
+  100% { width: 30%;  }
 }
-@-webkit-keyframes illustrator {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
-}
-@-webkit-keyframes wordpress {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-webkit-keyframes css {
-  0%   { width: 0px;  }
-  100% { width: 90%;  }
-}
-@-webkit-keyframes html5 {
+@-webkit-keyframes SPSS {
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
-@-webkit-keyframes jquery {
+@-webkit-keyframes SQL {
+  0%   { width: 0px;  }
+  100% { width: 40%;  }
+}
+@-webkit-keyframes Javascript {
+  0%   { width: 0px;  }
+  100% { width: 30%;  }
+}
+@-webkit-keyframes Python {
+  0%   { width: 0px;  }
+  100% { width: 20%;  }
+}
+@-webkit-keyframes Cplusplus {
   0%   { width: 0px;  }
   100% { width: 50%;  }
+}
+@-webkit-keyframes HTML {
+  0%   { width: 0px;  }
+  100% { width: 70%;  }
 }
 
 /* ------------------------------------------------------------------ */
@@ -630,7 +644,7 @@ call-to-action .button {
    color: #0D0D0D;
 }
 #call-to-action p span {
-	font-family: 'opensans-semibold', sans-serif; 
+	font-family: 'opensans-semibold', sans-serif;
 	color: #D8D8D8;
 }
 
@@ -654,7 +668,7 @@ call-to-action .button {
    padding-bottom: 66px;
 }
 #testimonials h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;   
+   font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
    color: #fff;
@@ -1003,4 +1017,3 @@ footer .social-links li:first-child { margin-left: 0; }
  	border-radius: 100%;
 }
 #go-top a:hover { background-color: #0F9095; }
-
